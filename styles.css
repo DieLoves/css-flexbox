@@ -53,11 +53,13 @@
 .flex-container {
   display: flex;
   height: 100vh;
-  align-content: stretch;
+  /* Выравнивание многострочного контента */
+  align-content: space-between;
   flex-wrap: wrap;
   flex-direction: column-reverse;
+  /* align-items: flex-end; */
 }
 
 .flex-item {
-  /* width: 200px; */
+  width: 200px;
 }

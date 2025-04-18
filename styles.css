@@ -52,13 +52,18 @@
 /* Custom styles */
 .flex-container {
   display: flex;
+  /* Включаем возможность переноса элементов (по умолчанию no-wrap) */
+  /* wrap-reverse повернуло поперечную ось вверх (на 90 градусов) */
   flex-wrap: wrap;
   height: 100vh;
   /* flex-direction: column; */
   /* padding: 5px; */
-  gap: 15px
+
+  /* Устанавливаем расстояние между элементами */
+  gap: 15px;
 }
 
+/* Элементы не переносятся на соседний ряд. Они будут растянуты на всю ширину строки. */
 .flex-item {
   width: calc(33.33% - 10px);
   /* margin: 5px; */

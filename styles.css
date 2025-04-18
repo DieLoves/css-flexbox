@@ -53,11 +53,29 @@
 .flex-container {
   display: flex;
   height: 100vh;
+  /* flex-flow: flex-direction flex-wrap */
   /* flex-flow: column wrap; */
+
+  /* space-between - распределение элементов равномерно. Первый прилегает в началу контейнера, а последний к концу */
+  /* space-around - пространство для всех элементов распределяется равномерно. На стыке 2 элементов расстояние удваивается */
+  /* space-evenly - распределит равномерно */
   flex-direction: column-reverse;
   justify-content: space-evenly;
+  /* flex-direction: row-reverse; */
 }
 
 .flex-item {
   /* width: 100px; */
 }
+
+/* Выравнивание элементов
+Container Aligment:
+  - justify-content
+    - Вдоль основной оси
+  - align-items
+    - Вдоль поперечной оси
+  - align-content
+    - Выравнивание элементов в несколько строк
+Item alignment:
+  - align-self
+*/

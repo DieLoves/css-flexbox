@@ -53,8 +53,8 @@
 .flex-container {
   display: flex;
   height: 100vh;
-  flex-wrap: wrap;
   /* flex-direction: column; */
+  flex-wrap: wrap;
 }
 
 .flex-item {
@@ -62,6 +62,7 @@
 }
 
 .item-1 {
+  /* Выравнивание определенному элементу вдоль поперечной оси */
   align-self: stretch;
 }
 
